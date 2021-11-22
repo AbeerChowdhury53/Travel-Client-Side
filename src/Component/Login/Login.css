@@ -1,0 +1,47 @@
+.login-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.from-div{
+    padding: 100px;
+    text-align: left;
+}
+
+.login-image{
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+#btn-cls{  
+    margin: auto;  
+    display: -webkit-box;
+    margin-bottom: 10px;
+}
+
+
+#btn-cls-ggl{
+    margin: auto;
+    display: -webkit-box;
+    background-color: maroon;
+    border: mintcream;
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .login-form{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .login-image{
+        width: 100%;
+        padding-left: 110px;
+    }
+    .from-div{
+        padding: 10px;
+    }
+       
+  }

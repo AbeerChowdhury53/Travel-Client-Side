@@ -1,0 +1,39 @@
+.about{
+    font-size:50px;
+    color: goldenrod;
+    margin-top: 10px;
+}
+.cover-img p{
+    width: 70%;
+    margin: auto;
+}
+
+.we-are{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    padding: 50px;
+}
+
+.about-img{
+    width: 100%;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .we-are{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+        /* border: 1px solid black; */
+        padding: 50px;
+    }
+
+
+    .cover-img p{
+        width: 90%;
+        margin: auto;
+    }
+  }
